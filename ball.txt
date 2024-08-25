@@ -4,6 +4,6 @@ st1=list(students)
 st2=st1.sort()
 gr1=len(grades[0]), len(grades[1]),len(grades[2]),len(grades[3]),len(grades[4])
 gr2=sum(grades[0]), sum(grades[1]),sum(grades[2]),sum(grades[3]),sum(grades[4])
-sr=gr2[0]//gr1[0],gr2[1]//gr1[1],gr2[2]//gr1[2],gr2[3]//gr1[3],gr2[4]//gr1[4]
+sr=gr2[0]/gr1[0],gr2[1]/gr1[1],gr2[2]/gr1[2],gr2[3]/gr1[3],gr2[4]/gr1[4]
 it=dict(zip(st1,sr))
 print(it)
